@@ -36,3 +36,5 @@ function game() {
         console.log(playRound(player, computerPlay())); 
     }              
 }
+
+game();

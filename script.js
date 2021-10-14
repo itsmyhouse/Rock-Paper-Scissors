@@ -28,3 +28,11 @@ function playRound(playerSelection, computerSelection) {
         else return "You lose. Rock beats Scissors.";
     }    
 }
+
+function game() {
+    
+    for(let i = 0; i < 5; i++) {
+        let player = prompt("your turn: (Rock, Paper or Scissors)");
+        console.log(playRound(player, computerPlay())); 
+    }              
+}
